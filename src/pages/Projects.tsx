@@ -113,12 +113,19 @@ function Projects() {
         },
         4: {
             title: 'Ma Route Mon Village',
-            description: 'This web application, is a team project during my second year of BUT, to put the french patrimony in the spotlight.',
+            description: 'This web application, is a team project during the first part of my second year of BUT, to put the french patrimony in the spotlight.',
             img: `${import.meta.env.BASE_URL}images/projects/MRMV/mrmv.png`,
             link: 'Unavailable',
             languages: ['html', 'css', 'react'],
             skills: ['Teamwork', 'Project management', 'Web design', "Need analysis"],
-            bigDescription: "<p>caca</p>"
+            bigDescription: "<p>The goal of this app is to highlight French heritage. <br/><br/>" +
+                "To achieve this, we decided to create something that can turn boring holiday trips into exciting adventures, " +
+                "and transform your stops on highways into welcoming villages. <br/><br/>" +
+                "This app allows you to create itineraries with a starting and an ending point, and find villages with heritage " +
+                "along your route where you can stop to rest. <br/><br/>" +
+                "You will also be able to specify what type of village or services you'd like to find. <br/><br/>" +
+                "Now, all you have to do is buckle up and embark on your adventure!</p>"
+
         }
     };
 
