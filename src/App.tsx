@@ -8,7 +8,7 @@ import Cursor from "./components/cursor/cursor.tsx";
 
 function App() {
     return (
-        <Router>
+        <Router basename="/portfolio">
             <NavBar/>
             <Cursor/>
             <Routes>
