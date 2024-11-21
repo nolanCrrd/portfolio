@@ -9,17 +9,17 @@ function Competences() {
                 <div className={'un'}>
                     <h1>Soft Skills</h1>
                     <div className={'ligne1'}>
-                        <CompetencesSkills img={'/portfolio/images/home/competences/groupe.png'} imgAlt={'Team'}
+                        <CompetencesSkills img={`${import.meta.env.BASE_URL}images/home/competences/groupe.png`} imgAlt={'Team'}
                                            text={"Teamwork"}/>
-                        <CompetencesSkills img={'/portfolio/images/home/competences/communication.png'}
+                        <CompetencesSkills img={`${import.meta.env.BASE_URL}images/home/competences/communication.png`}
                                            imgAlt={'Communication'} text={'Communication'}/>
                     </div>
                     <div className={'ligne2'}>
-                        <CompetencesSkills img={'/portfolio/images/home/competences/flexibilite.png'}
+                        <CompetencesSkills img={`${import.meta.env.BASE_URL}images/home/competences/flexibilite.png`}
                                            imgAlt={'Flexibility'} text={'Adaptability'}/>
-                        <CompetencesSkills img={'/portfolio/images/home/competences/sablier.png'} imgAlt={'Hourglass'}
+                        <CompetencesSkills img={`${import.meta.env.BASE_URL}images/home/competences/sablier.png`} imgAlt={'Hourglass'}
                                            text={'Time Management'}/>
-                        <CompetencesSkills img={'/portfolio/images/home/competences/diplome.png'}
+                        <CompetencesSkills img={`${import.meta.env.BASE_URL}images/home/competences/diplome.png`}
                                            imgAlt={'Graduation Cap'} text={'Self-taught'}/>
                     </div>
                 </div>
@@ -107,17 +107,17 @@ function Competences() {
                 </div>
                 <div className={'un'}>
                     <h1>Languages</h1>
-                    <Language img={'/portfolio/images/home/languages/html.png'} imgAlt={'HTML'} name={'HTML'}
+                    <Language img={`${import.meta.env.BASE_URL}images/home/languages/html.png`} imgAlt={'HTML'} name={'HTML'}
                               progression={'Complete Mastery'}/>
-                    <Language img={'/portfolio/images/home/languages/css.png'} imgAlt={'CSS'} name={'CSS'}
+                    <Language img={`${import.meta.env.BASE_URL}images/home/languages/css.png`} imgAlt={'CSS'} name={'CSS'}
                               progression={'Very Advanced Mastery'}/>
-                    <Language img={'/portfolio/images/home/languages/react.png'} imgAlt={'React'} name={'React'}
+                    <Language img={`${import.meta.env.BASE_URL}images/home/languages/react.png`} imgAlt={'React'} name={'React'}
                               progression={'Self-taught Learning'}/>
-                    <Language img={'/portfolio/images/home/languages/java.png'} imgAlt={'Java'} name={'Java'}
+                    <Language img={`${import.meta.env.BASE_URL}images/home/languages/java.png`} imgAlt={'Java'} name={'Java'}
                               progression={'Advanced Mastery'}/>
-                    <Language img={'/portfolio/images/home/languages/cpp.png'} imgAlt={'Cpp'} name={'Cpp'}
+                    <Language img={`${import.meta.env.BASE_URL}images/home/languages/cpp.png`} imgAlt={'Cpp'} name={'Cpp'}
                               progression={'Partial Mastery'}/>
-                    <Language img={'/portfolio/images/home/languages/python.png'} imgAlt={'Python'} name={'Python'}
+                    <Language img={`${import.meta.env.BASE_URL}images/home/languages/python.png`} imgAlt={'Python'} name={'Python'}
                               progression={'Advanced Mastery'}/>
                 </div>
             </div>

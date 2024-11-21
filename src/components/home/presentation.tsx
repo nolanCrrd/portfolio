@@ -20,7 +20,7 @@ function Presentation() {
                 </p>
             </div>
             <div className={'presentationImg'}>
-                <img src={"/portfolio/images/home/presentation/etudiant.png"} alt={'developer'}/>
+                <img src={`${import.meta.env.BASE_URL}images/home/presentation/etudiant.png`} alt={'developer'}/>
             </div>
         </div>
     );

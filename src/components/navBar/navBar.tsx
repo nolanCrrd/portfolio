@@ -46,7 +46,7 @@ function NavBar() {
         <div className="navBarDiv">
             {burger ?
                 <>
-                    <img src={'/images/navBar/burger-bar.png'} className={"burgerBTN"} alt={"burgerBTN"}/>
+                    <img src={`${import.meta.env.BASE_URL}images/navBar/burger-bar.png`} className={"burgerBTN"} alt={"burgerBTN"}/>
                 </>
                 : ""
             }

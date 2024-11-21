@@ -35,16 +35,16 @@ function Contact() {
             </form>
             <div className={"contactLink"}>
                 <div>
-                    <img src="/portfolio/images/contact/instagram.png" alt={"instagram"}/>
+                    <img src={`${import.meta.env.BASE_URL}images/contact/instagram.png`} alt={"instagram"}/>
                     <p>@nolan_crrd</p>
                 </div>
                 <div>
-                    <img src="/portfolio/images/contact/github.png" alt={"github"}/>
+                    <img src={`${import.meta.env.BASE_URL}images/contact/github.png`} alt={"github"}/>
                     <p>@noxiFR</p>
                 </div>
                 <div>
                     <a href="mailto:correardnolan@gmail.com" target="_blank"><img
-                        src="/portfolio/images/contact/img.png" alt={"email"}/></a>
+                        src={`${import.meta.env.BASE_URL}images/contact/img.png`} alt={"email"}/></a>
                     <p>correardnolan@gmail.com</p>
                 </div>
             </div>
