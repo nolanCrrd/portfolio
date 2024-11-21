@@ -12,9 +12,9 @@ function App() {
             <NavBar/>
             <Cursor/>
             <Routes>
-                <Route path={`${import.meta.env.BASE_URL}`} element={<Home/>}/>
-                <Route path={`${import.meta.env.BASE_URL}projects`} element={<Projects/>}/>
-                <Route path={`${import.meta.env.BASE_URL}contact`} element={<Contact/>}/>
+                <Route path={`/`} element={<Home/>}/>
+                <Route path={`/projects`} element={<Projects/>}/>
+                <Route path={`/contact`} element={<Contact/>}/>
             </Routes>
         </Router>
     );
