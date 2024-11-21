@@ -20,7 +20,7 @@ function Presentation() {
                 </p>
             </div>
             <div className={'presentationImg'}>
-                <img src={"/images/home/presentation/etudiant.png"} alt={'developer'}/>
+                <img src={"/portfolio/images/home/presentation/etudiant.png"} alt={'developer'}/>
             </div>
         </div>
     );

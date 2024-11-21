@@ -31,7 +31,7 @@ function projectCardpopUp({projectData}: projectCardpopUpProps) {
                     <div>
                         <h2>Used Languages</h2>
                         {projectData.languages.map((language, index) => (
-                            <img key={index} src={"/images/home/languages/" + language + ".png"} alt=""
+                            <img key={index} src={"/portfolio/images/home/languages/" + language + ".png"} alt=""
                                  className="languages"></img>
                         ))}
                     </div>

@@ -9,17 +9,17 @@ function Competences() {
                 <div className={'un'}>
                     <h1>Soft Skills</h1>
                     <div className={'ligne1'}>
-                        <CompetencesSkills img={'/images/home/competences/groupe.png'} imgAlt={'Team'}
+                        <CompetencesSkills img={'/portfolio/images/home/competences/groupe.png'} imgAlt={'Team'}
                                            text={"Teamwork"}/>
-                        <CompetencesSkills img={'/images/home/competences/communication.png'}
+                        <CompetencesSkills img={'/portfolio/images/home/competences/communication.png'}
                                            imgAlt={'Communication'} text={'Communication'}/>
                     </div>
                     <div className={'ligne2'}>
-                        <CompetencesSkills img={'/images/home/competences/flexibilite.png'}
+                        <CompetencesSkills img={'/portfolio/images/home/competences/flexibilite.png'}
                                            imgAlt={'Flexibility'} text={'Adaptability'}/>
-                        <CompetencesSkills img={'/images/home/competences/sablier.png'} imgAlt={'Hourglass'}
+                        <CompetencesSkills img={'/portfolio/images/home/competences/sablier.png'} imgAlt={'Hourglass'}
                                            text={'Time Management'}/>
-                        <CompetencesSkills img={'/images/home/competences/diplome.png'}
+                        <CompetencesSkills img={'/portfolio/images/home/competences/diplome.png'}
                                            imgAlt={'Graduation Cap'} text={'Self-taught'}/>
                     </div>
                 </div>
@@ -107,17 +107,17 @@ function Competences() {
                 </div>
                 <div className={'un'}>
                     <h1>Languages</h1>
-                    <Language img={'/images/home/languages/html.png'} imgAlt={'HTML'} name={'HTML'}
+                    <Language img={'/portfolio/images/home/languages/html.png'} imgAlt={'HTML'} name={'HTML'}
                               progression={'Complete Mastery'}/>
-                    <Language img={'/images/home/languages/css.png'} imgAlt={'CSS'} name={'CSS'}
+                    <Language img={'/portfolio/images/home/languages/css.png'} imgAlt={'CSS'} name={'CSS'}
                               progression={'Very Advanced Mastery'}/>
-                    <Language img={'/images/home/languages/react.png'} imgAlt={'React'} name={'React'}
+                    <Language img={'/portfolio/images/home/languages/react.png'} imgAlt={'React'} name={'React'}
                               progression={'Self-taught Learning'}/>
-                    <Language img={'/images/home/languages/java.png'} imgAlt={'Java'} name={'Java'}
+                    <Language img={'/portfolio/images/home/languages/java.png'} imgAlt={'Java'} name={'Java'}
                               progression={'Advanced Mastery'}/>
-                    <Language img={'/images/home/languages/cpp.png'} imgAlt={'Cpp'} name={'Cpp'}
+                    <Language img={'/portfolio/images/home/languages/cpp.png'} imgAlt={'Cpp'} name={'Cpp'}
                               progression={'Partial Mastery'}/>
-                    <Language img={'/images/home/languages/python.png'} imgAlt={'Python'} name={'Python'}
+                    <Language img={'/portfolio/images/home/languages/python.png'} imgAlt={'Python'} name={'Python'}
                               progression={'Advanced Mastery'}/>
                 </div>
             </div>

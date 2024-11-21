@@ -74,7 +74,7 @@ function Projects() {
         1: {
             title: 'Nuit du Code 2024',
             description: 'This video game is the result of a mondial gameJam in 2024 of 6 hours called "Nuit du Code".',
-            img: '/images/projects/NDC/ndc.png',
+            img: '/portfolio/images/projects/NDC/ndc.png',
             link: 'Unavailable',
             languages: ['python'],
             skills: ['Teamwork', 'Pressure management', 'Time management', 'Game design'],
@@ -88,7 +88,7 @@ function Projects() {
         2: {
             title: 'Site Web IMB',
             description: 'This web site is a groupe project during the first semester of my first year of BUT.',
-            img: '/images/projects/IMB/IMB.png',
+            img: '/portfolio/images/projects/IMB/IMB.png',
             link: 'Unavailable',
             languages: ['html', 'css'],
             skills: ['Web design', 'Teamwork', 'Deadline management'],
@@ -99,7 +99,7 @@ function Projects() {
         3: {
             title: 'Space Shooter',
             description: 'This game is was a training project to learn how to use the library called "Pyxel" for the event "Nuit du Code".',
-            img: '/images/projects/SpaceShooter/spaceShooter.png',
+            img: '/portfolio/images/projects/SpaceShooter/spaceShooter.png',
             link: 'Unavailable',
             languages: ['python'],
             skills: ['Libraries usage', 'Game design'],
@@ -114,7 +114,7 @@ function Projects() {
         4: {
             title: 'Ma Route Mon Village',
             description: 'This web application, is a team project during my second year of BUT, to put the french patrimony in the spotlight.',
-            img: '/images/projects/MRMV/mrmv.png',
+            img: '/portfolio/images/projects/MRMV/mrmv.png',
             link: 'Unavailable',
             languages: ['html', 'css', 'react'],
             skills: ['Teamwork', 'Project management', 'Web design', "Need analysis"],
