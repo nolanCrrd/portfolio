@@ -1,0 +1,156 @@
+div.projectPage {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  max-width: 2000px;
+  height: 100%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  gap: 10px;
+
+  .blurScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    transition: 0.3s;
+
+    &.visible {
+      opacity: 1;
+    }
+
+    .projectCardPopUp {
+      position: fixed;
+      top: calc(50% + 50px);
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #F8F2ED;
+      border: 1px solid black;
+      padding: 300px 20px 20px 20px;
+      max-width: 800px;
+      width: 70%;
+      max-height: 450px;
+      z-index: 1000;
+      overflow-y: auto;
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar-thumb:active {
+        background: rgba(0, 0, 0, .9);
+      }
+
+      .colonne {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: start;
+
+        > div {
+          width: 40%;
+        }
+      }
+
+      img {
+        &.projectImg {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 300px;
+          width: 100%;
+          object-fit: cover;
+          object-position: top;
+        }
+
+        &.languages {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+  }
+
+  .projectCol {
+    display: inline-block;
+
+    .projectBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+      margin: 10px 0;
+      padding: 10px;
+      position: relative;
+      width: 100%;
+      box-sizing: border-box;
+      transition: 0.3s;
+      opacity: 0;
+      cursor: pointer;
+
+      &.visible {
+        opacity: 1;
+      }
+
+      &:hover {
+        p {
+          max-height: 100px; // Ajustez cette valeur selon vos besoins
+          padding: 10px 10px;
+        }
+
+        h2 {
+          max-width: 100%;
+          padding: 5px 20px;
+        }
+      }
+
+      p {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 0px 10px;
+        margin: 0;
+        transition: 0.3s;
+        max-height: 0;
+        overflow: hidden;
+        background-color: #F8F2ED;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      h2 {
+        font-size: 30px;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        padding: 5px 0;
+        margin: 0;
+        transition: 0.3s;
+        max-width: 0;
+        overflow: hidden;
+        text-wrap: nowrap;
+        transform-origin: left;
+        color: black;
+        background-color: #F8F2ED;
+      }
+
+      a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

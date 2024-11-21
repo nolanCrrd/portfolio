@@ -1,0 +1,289 @@
+div.homePage {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
+  max-width: 2000px;
+  width: 100%;
+  box-sizing: border-box;
+
+  .homePresentation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .presentationTexte, .presentationImg {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 50%;
+        height: auto;
+        border-radius: 50%;
+      }
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
+  h1 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .timeLineBox {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+    margin-top: 20px;
+
+    .timeLine {
+      min-height: 100%;
+      width: 10px;
+      border: solid 1px black;
+    }
+
+    .timeLineList {
+      width: 80%;
+
+      h2 {
+        margin: 0;
+        font-size: 30px;
+      }
+
+      p {
+        margin: 10px 0 0 0;
+        max-width: 100%;
+
+        ul {
+          margin: 5px 0 0 0;
+        }
+      }
+
+      .timeLineText {
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  .competences {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .softSkill, .language {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .part1, .part2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .deux {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      height: 100%;
+
+      h1 {
+        border: 1px solid black;
+        padding: 5px;
+        box-sizing: border-box;
+      }
+    }
+
+    .un {
+      width: 50%;
+      border: solid 1px black;
+      margin-left: 100px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 40px;
+    }
+
+    .part1 {
+      margin-bottom: 60px;
+
+      .un {
+        margin-right: 100px;
+        margin-left: 0px;
+
+        div {
+          display: grid;
+          justify-items: center;
+
+          .softSkill {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            p {
+              margin: 0;
+            }
+
+            img {
+              width: 80px;
+              height: auto;
+              margin-bottom: 10px;
+            }
+          }
+
+          &.ligne1 {
+            grid-template-columns: 1fr 1fr;
+          }
+
+          &.ligne2 {
+            grid-template-columns: 1fr 1fr 1fr;
+          }
+        }
+      }
+    }
+
+    .part2 {
+      .timeLineBox {
+        justify-content: end;
+      }
+
+      .language {
+        display: grid;
+        grid-template-columns: 1fr 6fr 3fr;
+        gap: 30px;
+
+        p {
+          margin: auto 0;
+        }
+
+        .languageImg {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+
+          img {
+            width: 70px;
+            height: auto;
+          }
+
+          p {
+            position: absolute;
+            top: 100%;
+          }
+        }
+
+        .languageBarre {
+          width: 100%;
+          height: 15px;
+          border: solid 1px black;
+          margin: auto 0;
+          display: flex;
+          align-items: center;
+          padding: 5px;
+
+          .languageBarreProgression {
+            height: 100%;
+            background-color: black;
+
+            &.HTML {
+              width: 90%;
+            }
+
+            &.CSS {
+              width: 80%;
+            }
+
+            &.React {
+              width: 50%;
+            }
+
+            &.Java {
+              width: 70%;
+            }
+
+            &.Python {
+              width: 70%;
+            }
+
+            &.Cpp {
+              width: 40%;
+            }
+
+
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 900px) {
+  div.homePage {
+
+    div.homePresentation {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      .presentationImg, .presentationTexte {
+        width: 100%;
+      }
+    }
+
+    .timeLineText {
+      p {
+        max-width: 100% !important;
+      }
+    }
+
+    div.competences {
+
+      .timeLineList {
+        width: 100% !important;
+      }
+
+      .un, .deux {
+        width: 100%;
+        margin: 0;
+      }
+
+      .part1 {
+        flex-direction: column;
+        gap: 20px;
+
+        .un {
+          margin: 0;
+        }
+      }
+
+      .part2 {
+        flex-direction: column-reverse;
+        gap: 20px;
+
+        .un {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

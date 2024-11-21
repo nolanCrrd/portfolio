@@ -1,0 +1,45 @@
+.scroll {
+  transition: 0.5s;
+  will-change: transform;
+
+  &.visible {
+    transform: scaleX(1) !important;
+
+    .hidder {
+      transform: scaleX(0);
+    }
+  }
+
+  &.languageBarreProgression {
+    transform: scaleX(0);
+    perspective: 1px;
+    transform-origin: left;
+  }
+
+  &.timeLineText {
+    position: relative;
+
+    &.right {
+      .hidder {
+        transform-origin: right;
+      }
+    }
+
+    &.left {
+      .hidder {
+        transform-origin: left;
+      }
+    }
+
+    .hidder {
+      transition: 1s;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #F8F2ED;
+      top: 0;
+      left: 0;
+    }
+  }
+
+}
