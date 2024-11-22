@@ -217,8 +217,8 @@
           }
 
           &.deux {
-            top: 30%;
-            left: 55%;
+            top: 35%;
+            left: 45%;
             transition-delay: 0.2s;
 
             a {
@@ -238,7 +238,8 @@
           }
 
           &.trois {
-            top: 45%;
+            top: 55%;
+            left: 30%;
             transition-delay: 0s;
 
             a {
@@ -258,5 +259,15 @@
       text-indent: 0 !important;
     }
   }
+}
 
+@media (max-width: 500px) {
+  .navBarDiv {
+    h2 {
+      display: none !important;
+    }
+    h1 {
+      display: none !important;
+    }
+  }
 }

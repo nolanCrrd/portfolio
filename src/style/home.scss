@@ -212,7 +212,7 @@ div.homePage {
             }
 
             &.React {
-              width: 50%;
+              width: 60%;
             }
 
             &.Java {
@@ -224,7 +224,7 @@ div.homePage {
             }
 
             &.Cpp {
-              width: 40%;
+              width: 50%;
             }
 
 
@@ -233,6 +233,24 @@ div.homePage {
       }
     }
   }
+}
+
+@media (max-width: 500px) {
+  .language {
+    grid-template-columns: 1fr 1fr !important;
+    .languageBarre {
+      display: none !important;
+    }
+  }
+
+  .part1 {
+    .un {
+      .ligne1, .ligne2 {
+        grid-template-columns: 1fr !important;
+      }
+    }
+  }
+  
 }
 
 

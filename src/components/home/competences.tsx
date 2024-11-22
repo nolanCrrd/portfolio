@@ -110,15 +110,15 @@ function Competences() {
                     <Language img={`${import.meta.env.BASE_URL}images/home/languages/html.png`} imgAlt={'HTML'} name={'HTML'}
                               progression={'Complete Mastery'}/>
                     <Language img={`${import.meta.env.BASE_URL}images/home/languages/css.png`} imgAlt={'CSS'} name={'CSS'}
-                              progression={'Very Advanced Mastery'}/>
+                              progression={'Advanced Mastery'}/>
                     <Language img={`${import.meta.env.BASE_URL}images/home/languages/react.png`} imgAlt={'React'} name={'React'}
                               progression={'Self-taught Learning'}/>
                     <Language img={`${import.meta.env.BASE_URL}images/home/languages/java.png`} imgAlt={'Java'} name={'Java'}
-                              progression={'Advanced Mastery'}/>
+                              progression={'Mastery'}/>
                     <Language img={`${import.meta.env.BASE_URL}images/home/languages/cpp.png`} imgAlt={'Cpp'} name={'Cpp'}
                               progression={'Partial Mastery'}/>
                     <Language img={`${import.meta.env.BASE_URL}images/home/languages/python.png`} imgAlt={'Python'} name={'Python'}
-                              progression={'Advanced Mastery'}/>
+                              progression={'Mastery'}/>
                 </div>
             </div>
         </div>
