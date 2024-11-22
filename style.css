@@ -90,9 +90,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   position: relative;
   padding: 3px;
 }
-.navBarDiv ul li:hover {
-  cursor: url("/public/images/cursors/cursorHover.png") 16 16, auto;
-}
 .navBarDiv ul li:hover div.navLinkAnnimation.down {
   transform: scaleX(1);
 }
@@ -692,8 +689,8 @@ div.contactPage .contactLink img {
   border-radius: 50%;
 }
 div.contactPage .sendNotification {
-  position: absolute;
-  top: 40px;
+  position: fixed;
+  top: 150px;
   right: 40px;
   border: black 1px solid;
   padding: 10px;

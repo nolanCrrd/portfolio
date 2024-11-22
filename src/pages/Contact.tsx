@@ -4,14 +4,19 @@ import {useEffect, useRef, useState} from "react";
 function Contact() {
     const form = useRef<HTMLFormElement>(null);
     const [emailSent, setEmailSent] = useState(false);
+    const [emailDelay, setEmailDelay] = useState(false);
 
     function sendEmail(e: any) {
         e.preventDefault();
-        setEmailSent(true);
 
-        if (form.current) {
+        if (form.current && !emailDelay) {
             emailjs.sendForm('service_y9bw379', 'template_2wfa5mo', form.current, "GypUzvplGw8qRJpqt").then(() => {
             });
+            form.current.reset();
+            setEmailSent(true);
+            setEmailDelay(true);
+        } else {
+            console.log("Email already sent");
         }
     }
 
@@ -20,6 +25,9 @@ function Contact() {
             setTimeout(() => {
                 setEmailSent(false);
             }, 5000);
+            setTimeout(() => {
+                setEmailDelay(false);
+            }, 10000);
         }
     }, [emailSent]);
 
@@ -28,9 +36,9 @@ function Contact() {
             <form ref={form} onSubmit={sendEmail}>
                 <div>
                     <input type="text" placeholder="Nom" name={"userName"}/>
-                    <input type="email" placeholder="Email" name={"userMail"}/>
+                    <input type="email" placeholder="Email" name={"userMail"} required={true}/>
                 </div>
-                <textarea placeholder="Message" name={"message"}></textarea>
+                <textarea placeholder="Message" name={"message"} required={true}></textarea>
                 <button type="submit">Envoyer</button>
             </form>
             <div className={"contactLink"}>
