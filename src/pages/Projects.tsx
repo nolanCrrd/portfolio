@@ -117,7 +117,7 @@ function Projects() {
             img: `${import.meta.env.BASE_URL}images/projects/MRMV/mrmv.png`,
             link: 'Unavailable',
             languages: ['html', 'css', 'react'],
-            skills: ['Teamwork', 'Project management', 'Web design', "Need analysis"],
+            skills: ['Teamwork', 'Project management', 'Mobile Developpement', "Need analysis"],
             bigDescription: "<p>The goal of this app is to highlight French heritage. <br/><br/>" +
                 "To achieve this, we decided to create something that can turn boring holiday trips into exciting adventures, " +
                 "and transform your stops on highways into welcoming villages. <br/><br/>" +
