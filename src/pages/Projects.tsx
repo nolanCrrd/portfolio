@@ -113,7 +113,7 @@ function Projects() {
         },
         4: {
             title: 'Ma Route Mon Village',
-            description: 'This web application, is a team project during the first part of my second year of BUT, to put the french patrimony in the spotlight.',
+            description: 'This mobile application, is a team project during the first part of my second year of BUT, to put the french patrimony in the spotlight.',
             img: `${import.meta.env.BASE_URL}images/projects/MRMV/mrmv.png`,
             link: 'Unavailable',
             languages: ['html', 'css', 'react'],
