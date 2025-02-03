@@ -40,7 +40,7 @@ function projectCardpopUp({projectData}: projectCardpopUpProps) {
                 {projectData.link === "Unavailable" ? (
                     <p>Sorry, this project is not accessible for now.</p>
                 ) : (
-                    <a>{projectData.link}</a>
+                    <a href={projectData.link} target="blank">{projectData.link}</a>
                 )
                 }
 

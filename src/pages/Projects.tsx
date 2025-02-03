@@ -115,8 +115,8 @@ function Projects() {
             title: 'Ma Route Mon Village',
             description: 'This mobile application, is a team project during the first part of my second year of BUT, to put the french patrimony in the spotlight.',
             img: `${import.meta.env.BASE_URL}images/projects/MRMV/mrmv.png`,
-            link: 'Unavailable',
-            languages: ['html', 'css', 'react'],
+            link: 'https://github.com/nolanCrrd/MRMV/tree/main',
+            languages: ['react'],
             skills: ['Teamwork', 'Project management', 'Mobile Developpement', "Need analysis"],
             bigDescription: "<p>The goal of this app is to highlight French heritage. <br/><br/>" +
                 "To achieve this, we decided to create something that can turn boring holiday trips into exciting adventures, " +
@@ -124,8 +124,8 @@ function Projects() {
                 "This app allows you to create itineraries with a starting and an ending point, and find villages with heritage " +
                 "along your route where you can stop to rest. <br/><br/>" +
                 "You will also be able to specify what type of village or services you'd like to find. <br/><br/>" +
-                "Now, all you have to do is buckle up and embark on your adventure! <br/><br/>" + 
-                "This app is currently in developpement</p>"
+                "Now, all you have to do is buckle up and embark on your adventure!<br/><br/>" + 
+                "This project was for school so you can download it but it will not work completly because we shut down the data base</p>"
 
         }
     };
