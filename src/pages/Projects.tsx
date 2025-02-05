@@ -124,8 +124,7 @@ function Projects() {
                 "This app allows you to create itineraries with a starting and an ending point, and find villages with heritage " +
                 "along your route where you can stop to rest. <br/><br/>" +
                 "You will also be able to specify what type of village or services you'd like to find. <br/><br/>" +
-                "Now, all you have to do is buckle up and embark on your adventure!<br/><br/>" + 
-                "This project was for school so you can download it but it will not work completly because we shut down the data base</p>"
+                "Now, all you have to do is buckle up and embark on your adventure!</p>"
 
         }
     };
